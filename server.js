@@ -29,7 +29,7 @@ app.get('/search', (req, res) => {
 // Question 4: Create a route for handling path parameters
 app.get('/user/:id', (req, res) => {
   const { id } = req.params;
-  res.json({ message: `User ID is: ${id}` });
+  res.json({ message: `User ID is: ${UG256}` });
 });
 
 // Listen to the server
